@@ -47,7 +47,6 @@ public class TagsController {
 			totalnumberoflikes=totalnumberoflikes+data.getLikes().getCount();
 			
 			for(String tag: tagslist) {
-				System.out.println(tag);
 				tagscollections.add(tag);
 			}
 			
