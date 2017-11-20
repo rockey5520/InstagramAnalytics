@@ -52,7 +52,7 @@ public class TagsController {
 			
 			post.setTagslist(tagslist);
 			post.setLikes(likes);
-			mining.add(post);
+			//mining.add(post);
 		}
 		
 		output.setPost(mining);
